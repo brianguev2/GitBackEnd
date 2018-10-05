@@ -72,5 +72,5 @@ router.post('/users', function(req, res, next){
     }).catch(next);
 });
 
-router.use('/', require('./users'));
+
 module.exports = router;
